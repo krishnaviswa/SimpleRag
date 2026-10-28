@@ -1,0 +1,4 @@
+- Backlog writes only `backlog/`.
+- Product writes `specs/` and the status line on that backlog item. Product owns acceptance criteria and what the demo shows. Product does not write application code or tests.
+- Development implements one ready spec in ordinary application code and does not change the spec or the tests.
+- Testing writes `tests/` and `reports/`. A failure goes back to Development with the failing check named. Testing does not patch application code.
